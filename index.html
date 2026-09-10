@@ -1,0 +1,805 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="generator" content="Built by bryx" />
+  <title>Maaz X Events | Making Your Moments Iconic — Premium Event Decoration, Lahore</title>
+  <meta name="description" content="Premium event and birthday decoration studio crafting Instagram-worthy celebrations across Pakistan. Bridal showers, Nikkah, Mehndi, birthdays and more." />
+  <meta name="keywords" content="Maaz X Events, MaazXEvents Wedding Decor, MaazXEvents Birthday Decoration, Event planner in Lahore, Event planning service, Event Decoration Lahore, Wedding Decorators in Lahore, Birthday Decoration Lahore, Mehndi Decoration Lahore, Hotel Room Decoration Lahore, Proposal Decoration Lahore, Nikkah Decoration Lahore, Dholki Decoration Lahore, Mayon Decoration Lahore, Kids Birthday Decoration Lahore, Iftar Decoration Lahore, Romantic Decoration Lahore" />
+  <link rel="canonical" href="https://maazxevents.com/" />
+  <meta property="og:site_name" content="Maazx Events" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Maaz X Events — Making Your Moments Iconic" />
+  <meta property="og:description" content="Premium event and birthday decoration studio crafting Instagram-worthy celebrations across Pakistan." />
+  <meta property="og:url" content="https://maazxevents.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Maaz X Events — Making Your Moments Iconic" />
+  <meta name="twitter:description" content="Premium event and birthday decoration studio crafting Instagram-worthy celebrations across Pakistan." />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"ProfessionalService","name":"Maazx Events","alternateName":"MaazXevents","url":"https://maazxevents.com/","description":"Premium event and birthday decoration studio crafting Instagram-worthy celebrations across Pakistan. Bridal showers, Nikkah, Mehndi, birthdays and more.","email":"eventsbymaaz@gmail.com","telephone":"+923253029383","address":{"@type":"PostalAddress","addressLocality":"Lahore","addressCountry":"PK"},"areaServed":"Pakistan"}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Hedvig+Letters+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ivory: #FDF9F3;
+      --cream: #F5EFE6;
+      --pastel-blue: #DCE6F2;
+      --beige: #EAE4D9;
+      --ink: #22201D;
+      --charcoal: #333230;
+      --charcoal-dark: #242424;
+      --muted: #8E8A80;
+      --muted-2: #65605D;
+      --accent-rose: #BA6A5D;
+      --line: rgba(255, 255, 255, 0.7);
+      --glass-card: rgba(255, 255, 255, 0.62);
+      --shadow-card: 0 35px 80px -25px rgba(58, 44, 34, 0.26), 0 0 0 1px rgba(255, 255, 255, 0.45) inset;
+      --shadow-pill: 0 8px 20px -8px rgba(60, 48, 40, 0.1);
+      --shadow-hover: 0 14px 28px -6px rgba(60, 48, 40, 0.16);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: "DM Sans", "Inter", sans-serif;
+      color: var(--ink);
+      min-height: 100vh;
+      position: relative;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 16px 40px;
+    }
+
+    /* full-page background from background.png */
+    .bg-layer {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background: url("background.png") center top / cover no-repeat;
+      pointer-events: none;
+    }
+
+    /* soft ambient veil */
+    .bg-veil {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background:
+        radial-gradient(circle at 50% 15%, rgba(255, 255, 255, 0.08) 0%, rgba(246, 240, 232, 0.45) 60%, rgba(238, 230, 220, 0.75) 100%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(245, 239, 230, 0.3) 100%);
+      pointer-events: none;
+    }
+
+    /* outer wrapper layout with decorative side text */
+    .layout-wrapper {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    /* decorative side elements matching inspiration */
+    .side-deco {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      user-select: none;
+      opacity: 0.85;
+      display: none;
+    }
+
+    @media (min-width: 860px) {
+      .side-deco { display: block; }
+    }
+
+    .side-deco-left {
+      left: 10px;
+      font-family: "Alex Brush", cursive;
+      color: #928B80;
+      font-size: 30px;
+      line-height: 1.45;
+      letter-spacing: 0.5px;
+    }
+    .side-deco-left span {
+      display: block;
+    }
+    .side-deco-left .deco-line,
+    .side-deco-right .deco-vline,
+    .side-deco-right .deco-hline,
+    .foot .foot-line { display: none; }
+
+    /* central glass phone card */
+    .phone {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+      border-radius: 40px;
+      background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.42) 0%,
+        rgba(255, 255, 255, 0.65) 12%,
+        rgba(252, 248, 242, 0.86) 38%,
+        rgba(247, 241, 233, 0.95) 75%,
+        rgba(244, 238, 230, 0.98) 100%
+      );
+      backdrop-filter: blur(28px) saturate(1.2);
+      -webkit-backdrop-filter: blur(28px) saturate(1.2);
+      border: 1.5px solid rgba(255, 255, 255, 0.85);
+      box-shadow: var(--shadow-card);
+      padding: 22px 22px 28px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease;
+    }
+
+    /* top bar: share button aligned right */
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 22px;
+    }
+    .round-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.68);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      color: var(--charcoal);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: var(--shadow-pill);
+      transition: all 0.25s ease;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .round-btn:hover {
+      background: #FFFFFF;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-hover);
+    }
+    .round-btn svg { width: 19px; height: 19px; }
+
+    /* brand section */
+    .brand {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+    .logo-wrap {
+      width: 104px;
+      margin: 0 auto 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-wrap img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.05));
+    }
+
+    .logo-type {
+      font-family: "Playfair Display", serif;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 3.5px;
+      color: var(--ink);
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+    .tagline {
+      font-family: "Hedvig Letters Serif", serif;
+      font-style: normal;
+      font-size: 14.5px;
+      color: #524E48;
+      margin-top: 7px;
+      letter-spacing: 0.3px;
+    }
+    .loc {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2.2px;
+      text-transform: uppercase;
+      color: var(--accent-rose);
+    }
+    .loc svg {
+      width: 13px;
+      height: 13px;
+      fill: var(--accent-rose);
+      stroke: var(--accent-rose);
+      stroke-width: 0.5;
+    }
+
+    /* link pills list */
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 26px;
+    }
+    .link-pill {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 10px 14px 10px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.95);
+      box-shadow: var(--shadow-pill);
+      text-decoration: none;
+      color: var(--ink);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    }
+    .link-pill:hover {
+      transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: var(--shadow-hover);
+    }
+    .pill-icon {
+      width: 44px;
+      height: 44px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background: #FFFFFF;
+      border: 1px solid rgba(255, 255, 255, 0.95);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
+    }
+    .pill-icon svg {
+      width: 23px;
+      height: 23px;
+      display: block;
+    }
+    .pill-body {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+    }
+    .pill-title {
+      display: block;
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--ink);
+      line-height: 1.25;
+      letter-spacing: 0.1px;
+    }
+    .pill-sub {
+      display: block;
+      font-size: 11.5px;
+      color: var(--muted);
+      margin-top: 2.5px;
+      line-height: 1.2;
+    }
+    .pill-arrow {
+      width: 32px;
+      height: 32px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.65);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      color: #656056;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+      transition: all 0.25s ease;
+    }
+    .pill-arrow svg {
+      width: 15px;
+      height: 15px;
+      stroke-width: 2;
+    }
+    .link-pill:hover .pill-arrow {
+      background: #FFFFFF;
+      transform: translateX(2px);
+      color: var(--ink);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    /* featured event showcase */
+    .feature {
+      background: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.85);
+      border-radius: 28px;
+      box-shadow: var(--shadow-pill);
+      padding: 10px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .feature-photo {
+      position: relative;
+      border-radius: 22px;
+      overflow: hidden;
+      aspect-ratio: 16 / 10.5;
+    }
+    .feature-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.6s ease;
+    }
+    .feature:hover .feature-photo img {
+      transform: scale(1.03);
+    }
+    .feature-badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: rgba(20, 20, 20, 0.45);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feature-badge svg {
+      width: 16px;
+      height: 16px;
+      stroke-width: 1.8;
+    }
+
+    .feature-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 8px 6px;
+    }
+    .feature-text b {
+      display: block;
+      font-family: "Playfair Display", serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--ink);
+      letter-spacing: 0.2px;
+    }
+    .feature-text span {
+      display: block;
+      font-family: "Hedvig Letters Serif", serif;
+      font-size: 14px;
+      color: var(--muted-2);
+      margin-top: 3px;
+    }
+    .feature-cta {
+      width: 42px;
+      height: 42px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background: rgba(215, 209, 201, 0.7);
+      color: #38342E;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      transition: all 0.25s ease;
+    }
+    .feature-cta svg {
+      width: 16px;
+      height: 16px;
+      stroke-width: 2.2;
+    }
+    .feature-cta:hover {
+      background: var(--charcoal);
+      color: #FFFFFF;
+      transform: translateX(2px);
+    }
+
+    /* contact message box */
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .msg-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 5px 12px 5px 20px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      box-shadow: var(--shadow-pill);
+    }
+    .msg-box input {
+      flex: 1;
+      border: none;
+      outline: none;
+      background: transparent;
+      font-family: "DM Sans", "Inter", sans-serif;
+      font-size: 14.5px;
+      color: var(--ink);
+      padding: 13px 0;
+    }
+    .msg-box input::placeholder {
+      color: var(--muted);
+    }
+    .msg-send {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      border: none;
+      background: transparent;
+      color: #4A463F;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+    .msg-send svg {
+      width: 18px;
+      height: 18px;
+      stroke-width: 1.9;
+    }
+    .msg-send:hover {
+      transform: scale(1.1);
+      color: var(--ink);
+    }
+
+    .submit-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 18px;
+      border: none;
+      border-radius: 999px;
+      background: linear-gradient(180deg, #3A3835 0%, #292825 100%);
+      color: #FFFFFF;
+      font-family: "DM Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      box-shadow: 0 16px 36px -12px rgba(40, 36, 30, 0.45);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    }
+    .submit-btn:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(180deg, #2D2B28 0%, #1C1B19 100%);
+      box-shadow: 0 22px 42px -12px rgba(40, 36, 30, 0.55);
+    }
+
+    /* bottom iconic footer */
+    .foot {
+      text-align: center;
+      margin-top: 28px;
+      padding-top: 4px;
+    }
+    .foot p {
+      font-size: 11.5px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #55504A;
+    }
+    .foot-credit {
+      display: block;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #736C65;
+      margin-top: 7px;
+      text-transform: uppercase;
+    }
+
+    /* toast */
+    .toast {
+      position: fixed;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: var(--charcoal);
+      color: #FFFFFF;
+      padding: 12px 24px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 500;
+      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.35s ease;
+      z-index: 50;
+    }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    @media (max-width: 480px) {
+      body { padding: 16px 10px 30px; }
+      .phone { padding: 18px 16px 24px; border-radius: 32px; }
+      .logo-type { font-size: 23px; letter-spacing: 2.6px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Full page floral background image & soft overlay -->
+  <div class="bg-layer"></div>
+  <div class="bg-veil"></div>
+
+  <div class="layout-wrapper">
+    <!-- Left side decorative calligraphy text -->
+    <div class="side-deco side-deco-left">
+      <span>Moments</span>
+      <span>Events</span>
+      <span>People</span>
+      <span>Stories</span>
+      <div class="deco-line"></div>
+    </div>
+
+    <!-- Center Phone / Glass Container -->
+    <main class="phone">
+
+      <!-- Top Bar: Share button -->
+      <div class="topbar">
+        <button class="round-btn" aria-label="Share" onclick="sharePage()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8">
+            <circle cx="18" cy="5" r="3"/>
+            <circle cx="6" cy="12" r="3"/>
+            <circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="10.49" x2="15.42" y2="6.51"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Header: Logo, Brand Name, Tagline & Location -->
+      <header class="brand">
+        <div class="logo-wrap">
+          <img src="logo.png" alt="Maaz X Events Logo" />
+        </div>
+        <h1 class="logo-type">Maaz X Events</h1>
+        <p class="tagline">Making Your Moments Iconic</p>
+        <div class="loc">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+          </svg>
+          Lahore, Pakistan
+        </div>
+      </header>
+
+      <!-- Action Links matching inspiration design -->
+      <nav class="links">
+        <!-- Google / Contact Us -->
+        <a class="link-pill" href="https://share.google/IXl7DIixz05aSm41Z" target="_blank" rel="noopener">
+          <span class="pill-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22">
+              <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z"/>
+              <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z"/>
+              <path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.16 0 9.97 0 12s.45 3.84 1.25 5.42l4.03-3.15z"/>
+              <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/>
+            </svg>
+          </span>
+          <span class="pill-body">
+            <span class="pill-title">Contact Us</span>
+            <span class="pill-sub">Get in touch</span>
+          </span>
+          <span class="pill-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </a>
+
+        <!-- WhatsApp -->
+        <a class="link-pill" href="https://api.whatsapp.com/send/?phone=923252938365&text&type=phone_number&app_absent=0" target="_blank" rel="noopener">
+          <span class="pill-icon">
+            <svg viewBox="0 0 32 32" width="24" height="24">
+              <path fill="#25D366" d="M16 2a13.9 13.9 0 0 0-12 20.9L2 30l7.3-1.9A13.9 13.9 0 1 0 16 2zm0 25.5c-2.3 0-4.5-.6-6.4-1.8l-.5-.3-4.7 1.2 1.3-4.6-.3-.5A11.5 11.5 0 1 1 16 27.5zm6.3-8.6c-.3-.2-2-.1-2.3-1.1s-.4-.2-.6.1-.7.9-.9 1.1-.3.2-.6.1a7.8 7.8 0 0 1-2.3-1.4 8.7 8.7 0 0 1-1.6-2c-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5s0-.4-.1-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.8 1.2 3.3 1.4 3.5 2.4 3.7 5.8 5.1c.8.3 1.4.6 1.9.7.8.3 1.5.2 2.1.1.7-.1 2-.8 2.3-1.6.3-.8.3-1.4.2-1.6s-.3-.2-.6-.3z"/>
+            </svg>
+          </span>
+          <span class="pill-body">
+            <span class="pill-title">WhatsApp</span>
+            <span class="pill-sub">Chat with us</span>
+          </span>
+          <span class="pill-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </a>
+
+        <!-- Instagram -->
+        <a class="link-pill" href="https://www.instagram.com/maazxevents" target="_blank" rel="noopener">
+          <span class="pill-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22">
+              <defs>
+                <radialGradient id="ig-grad" r="150%" cx="30%" cy="107%">
+                  <stop stop-color="#fdf497" offset="0%" />
+                  <stop stop-color="#fdf497" offset="5%" />
+                  <stop stop-color="#fd5949" offset="45%" />
+                  <stop stop-color="#d6249f" offset="60%" />
+                  <stop stop-color="#285AEB" offset="90%" />
+                </radialGradient>
+              </defs>
+              <rect x="2" y="2" width="20" height="20" rx="5.5" ry="5.5" fill="url(#ig-grad)"/>
+              <path fill="#fff" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-8.35a1.15 1.15 0 1 1-2.3 0 1.15 1.15 0 0 1 2.3 0z"/>
+            </svg>
+          </span>
+          <span class="pill-body">
+            <span class="pill-title">Instagram</span>
+            <span class="pill-sub">Follow our journey</span>
+          </span>
+          <span class="pill-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </a>
+
+        <!-- TikTok -->
+        <a class="link-pill" href="https://www.tiktok.com/@maazxevents?_r=1&_t=ZS-96KkYCkPGRc" target="_blank" rel="noopener">
+          <span class="pill-icon">
+            <svg viewBox="0 0 24 24" width="21" height="21" fill="#000000">
+              <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.47 6.27 6.27 0 0 0 1.95-4.47V8.82a8.27 8.27 0 0 0 4.82 1.54V6.9a4.85 4.85 0 0 1-1-.21z"/>
+            </svg>
+          </span>
+          <span class="pill-body">
+            <span class="pill-title">TikTok</span>
+            <span class="pill-sub">Watch our moments</span>
+          </span>
+          <span class="pill-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </a>
+
+        <!-- Facebook -->
+        <a class="link-pill" href="https://www.facebook.com/people/maazxevents/61575047954142/?rdid=vJcsNmv3Ho613eyJ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18Q7M932Pa%2F" target="_blank" rel="noopener">
+          <span class="pill-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="#1877F2">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </span>
+          <span class="pill-body">
+            <span class="pill-title">Facebook</span>
+            <span class="pill-sub">Like &amp; support</span>
+          </span>
+          <span class="pill-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </a>
+
+        <!-- Visit Our Website -->
+        <a class="link-pill" href="https://www.maazxevents.com/" target="_blank" rel="noopener">
+          <span class="pill-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#22201D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </span>
+          <span class="pill-body">
+            <span class="pill-title">Visit Our Website</span>
+            <span class="pill-sub">Explore our services</span>
+          </span>
+          <span class="pill-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </a>
+      </nav>
+
+      <!-- Featured Event Block -->
+      <section class="feature">
+        <div class="feature-photo">
+          <img src="https://hxxebl8rsdchixu3.public.blob.vercel-storage.com/WhatsApp%20Image%202026-08-22%20at%202.47.59%20AM-Qp1978CWJiG3daNZGDjyBw2hybb17D.jpeg" alt="Featured event decoration by Maazx Events" loading="lazy" />
+          <div class="feature-badge" aria-label="Gallery photo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="4"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <path d="m21 15-5-5L5 21"/>
+            </svg>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="feature-text">
+            <b>Beautiful Events</b>
+            <span>Happier People</span>
+          </div>
+          <a class="feature-cta" href="https://maazxevents.com/" target="_blank" rel="noopener" aria-label="Explore Beautiful Events">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact Message Input & Submit Button -->
+      <form class="contact" onsubmit="return sendMessage(event)">
+        <div class="msg-box">
+          <input type="text" id="msg" placeholder="Type your message here..." aria-label="Your message" required />
+          <button type="submit" class="msg-send" aria-label="Send message">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m22 2-7 20-4-9-9-4Z"/>
+              <path d="M22 2 11 13"/>
+            </svg>
+          </button>
+        </div>
+        <button type="submit" class="submit-btn">
+          Submit
+        </button>
+      </form>
+
+      <!-- Footer: LET'S MAKE IT ICONIC -->
+      <footer class="foot">
+        <p>Let&rsquo;s Make It Iconic</p>
+        <div class="foot-line"></div>
+        <small class="foot-credit">Built by bryx</small>
+      </footer>
+
+    </main>
+
+    <!-- Right side decorative typography -->
+    <div class="side-deco side-deco-right">
+      <div class="deco-vline"></div>
+      <div class="deco-text">
+        MORE<br />
+        THAN<br />
+        EVENTS
+      </div>
+      <div class="deco-hline"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    function toast(text) {
+      const t = document.getElementById("toast");
+      t.textContent = text;
+      t.classList.add("show");
+      clearTimeout(t._h);
+      t._h = setTimeout(() => t.classList.remove("show"), 2600);
+    }
+    function sharePage() {
+      const data = {
+        title: "Maaz X Events",
+        text: "Maaz X Events — Making Your Moments Iconic",
+        url: "https://maazxevents.com/"
+      };
+      if (navigator.share) {
+        navigator.share(data).catch(() => {});
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(data.url).then(() => toast("Link copied to clipboard"));
+      } else {
+        toast("Share: https://maazxevents.com/");
+      }
+    }
+    function sendMessage(e) {
+      e.preventDefault();
+      const msg = document.getElementById("msg").value.trim();
+      if (!msg) return false;
+       window.location.href = "https://api.whatsapp.com/send/?phone=923252938365&text=" + encodeURIComponent(msg) + "&type=phone_number&app_absent=0";
+       return false;
+     }
+   </script>
+</body>
+</html>
